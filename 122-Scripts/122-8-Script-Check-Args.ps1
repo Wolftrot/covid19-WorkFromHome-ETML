@@ -29,4 +29,5 @@
 # Ceiling of input
 param()
 
+$Args | Format-Table
 
