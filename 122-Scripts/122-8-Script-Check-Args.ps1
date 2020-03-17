@@ -29,5 +29,4 @@
 # Ceiling of input
 param()
 
-for($i=0; $i -lt $Args.lenght; $i++){Write-Host $Args[$i]}
 
