@@ -1,0 +1,4 @@
+#TYPE Microsoft.PowerShell.Commands.MatchInfo
+"IgnoreCase","LineNumber","Line","Filename","Path","Pattern","Context","Matches"
+"True","3","Ma?tre Renard, par l'odeur all?ch?,","fable-corbeau-renard.txt","F:\00-GITS\covid19-WorkFromHome-ETML\122-Scripts\Fables\fable-corbeau-renard.txt","renard",,"System.Text.RegularExpressions.Match[]"
+"True","13","Le Renard s'en saisit, et dit : Mon bon Monsieur,","fable-corbeau-renard.txt","F:\00-GITS\covid19-WorkFromHome-ETML\122-Scripts\Fables\fable-corbeau-renard.txt","renard",,"System.Text.RegularExpressions.Match[]"
