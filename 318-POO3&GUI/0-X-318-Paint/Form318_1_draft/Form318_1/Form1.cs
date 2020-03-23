@@ -13,29 +13,20 @@ namespace Form318_1
 {
     public partial class Form1 : Form
     {
+
         bool clicked;
         int lastX, lastY;
         //int endX, endY;
         Graphics g;
+        Graphics sizeSample;
         Brush b;
-        int brushsize=1;
+        private int brushsize = 1;
         Pen p;
         Point last;
 
         List<Point> points = new List<Point>();
 
-        public int Brushsize
-        {
-            get
-            {
-                return brushsize;
-            }
-
-            set
-            {
-                brushsize = value;
-            }
-        }
+        public int Brushsize {get{return brushsize;}set{brushsize = value;}}
 
         public Form1()
         {
@@ -48,7 +39,8 @@ namespace Form318_1
             //p.LineJoin = System.Drawing.Drawing2D.LineJoin.Round;
             //p.DashPattern=;
 
-
+            sizeSample = this.CreateGraphics();
+            sizeSample.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             //p.DashCap = System.Drawing.Drawing2D.DashCap.Round;
 
             // Create a custom dash pattern.
@@ -80,17 +72,13 @@ namespace Form318_1
             {
                 points.Add(e.Location);
                 //g.FillEllipse(b, e.X, e.Y, brushsize, brushsize);
-                //g.DrawEllipse()
+                //g.DrawEllipse();
                 //g.DrawLine(p, last,e.Location); 
 
                 if(Brushsize<=1)
                     g.DrawLine(p, last, e.Location);
                 else
                     g.DrawLines(p, points.ToArray());
-
-
-
-
 
                 lastX = e.X;
                 lastY = e.Y;
@@ -128,10 +116,17 @@ namespace Form318_1
             //this.Invalidate();
         }
 
+        /// <summary>
+        /// Does something arbitrary (TO REMOVE)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
+            g.Clear(Color.White);
             g.DrawLines(p, new Point[] { new Point(0, 50), new Point(500, 50) });
             g.DrawLines(p, new Point[] { new Point(0, 100), new Point(400, 100) });
+            
         }
 
 
@@ -141,20 +136,28 @@ namespace Form318_1
             label2.Text = "  scroll value:" + trackBar1.Value + "   brushsize" + brushsize;
             b = new SolidBrush(Color.Black);
             p = new Pen(b, Brushsize);
+
+            //Update Visualisation Sample
+            sizeSample.DrawLines(p, new Point[] { 
+                new Point(this.sizePanel.Location.X, this.sizePanel.Location.Y), 
+                new Point(this.sizePanel.Location.X + this.sizePanel.Size.Width, this.sizePanel.Location.Y + this.sizePanel.Size.Height) 
+            }); 
         }
+
+
 
         private void showCoordinates(MouseEventArgs e)
         {
             label1.Text = "x:" + e.X + "   y:" + e.Y;
         }
         /*
-protected override void OnPaint(PaintEventArgs e)
-{
-   base.OnPaint(e);
-   for(int i=0;i<points.Count-1;i++)
-   {
-       g.DrawLine(p, points[i],points[i+1]);
-   }
-}*/
+        protected override void OnPaint(PaintEventArgs e)
+        {
+           base.OnPaint(e);
+           for(int i=0;i<points.Count-1;i++)
+           {
+               g.DrawLine(p, points[i],points[i+1]);
+           }
+        }*/
     }
 }
