@@ -1,0 +1,27 @@
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\bin\Debug\Form318_1.exe.config
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\bin\Debug\Form318_1.exe
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\bin\Debug\Form318_1.pdb
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\obj\Debug\Form318_1.Form1.resources
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\obj\Debug\Form318_1.Properties.Resources.resources
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\obj\Debug\Form318_1.csproj.GenerateResource.Cache
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\obj\Debug\Form318_1.exe
+c:\users\zfpjmy\documents\visual studio 2015\Projects\Form318_1\Form318_1\obj\Debug\Form318_1.pdb
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\bin\Debug\Form318_1.exe.config
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\bin\Debug\Form318_1.exe
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\bin\Debug\Form318_1.pdb
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\obj\Debug\Form318_1.csprojResolveAssemblyReference.cache
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\obj\Debug\Form318_1.Form1.resources
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\obj\Debug\Form318_1.Properties.Resources.resources
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\obj\Debug\Form318_1.csproj.GenerateResource.Cache
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\obj\Debug\Form318_1.csproj.CoreCompileInputs.cache
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\obj\Debug\Form318_1.exe
+\\setmseb2k120002.etmlnet.local\SECTIONS$\INF\Maitres-Seul\Enseignement\ModulesICT_NewOrdo\318-ProgrammationOrienteeObjets\b-UnitesEnseignement\Form318_1_draft\Form318_1\obj\Debug\Form318_1.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\bin\Debug\Form318_1.exe.config
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\bin\Debug\Form318_1.exe
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\bin\Debug\Form318_1.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\obj\Debug\Form318_1.csprojAssemblyReference.cache
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\obj\Debug\Form318_1.Form1.resources
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\obj\Debug\Form318_1.Properties.Resources.resources
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\obj\Debug\Form318_1.csproj.GenerateResource.cache
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\obj\Debug\Form318_1.exe
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\0-X-318-Paint\Form318_1_draft\Form318_1\obj\Debug\Form318_1.pdb
