@@ -49,11 +49,22 @@ if(!$userName -or $userName -isnot [string] -or !$description -or $description -
 }
 else
 {
-    $pwd = ConvertTo-SecureString $pwd -AsPlainText -Force
+    #Does the user exist?
+    $u = Get-LocalUser | where-object {$_.Name -eq $userName }
 
-    #create group
-    New-LocalUser -Name $userName -Description $description -Password $pwd
-    Write-Host User created -ForegroundColor Yellow
+    if($u)
+    {
+        Write-Host User already exists -ForegroundColor Yellow
+    }
+    else
+    {
+        $pwd = ConvertTo-SecureString $pwd -AsPlainText -Force
+
+        #create group
+        New-LocalUser -Name $userName -Description $description -Password $pwd
+        Write-Host User created -ForegroundColor Yellow
+    }
+    
 
     
 }# endif

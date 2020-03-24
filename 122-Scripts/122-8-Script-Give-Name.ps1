@@ -22,6 +22,7 @@
  	
 .EXAMPLE
     Give-Name.ps1 -name "Pikachu"
+    Name created : Pikachu
  	
 #>
 

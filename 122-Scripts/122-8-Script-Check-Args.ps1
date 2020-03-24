@@ -22,12 +22,13 @@
  	
 .EXAMPLE
    
-   CURRENTPATH > Write-Date -color Red
-   Nous sommes le : 17.03.2020 19:13:36
+  CURRENTPATH> .\122-8-Script-Check-Args.ps1 a b c ab abc
+    a
+    b
+    c
+    ab
+    abc
 #>
-
-# Ceiling of input
-param()
 
 $Args | Format-Table
 

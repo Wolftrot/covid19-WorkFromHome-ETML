@@ -32,6 +32,7 @@
 # Ceiling of input
 param()
 
+# Evaluate if its a numeric value
 function Is-Num($int)
 {
     $b =  $int -match '[\d]{1,}'
@@ -42,6 +43,7 @@ function Is-Num($int)
 
 $sum = 0
 
+#sum all the parameters
 for($i= 0; $i -lt $args.Count; $i++)
 {
     write-host $args[$i]
@@ -49,6 +51,7 @@ for($i= 0; $i -lt $args.Count; $i++)
     if(Is-Num($args[$i])){$sum += $args[$i]}
 }
 
+#Display the sum
 write-host La somme vaut :  $sum
 
 

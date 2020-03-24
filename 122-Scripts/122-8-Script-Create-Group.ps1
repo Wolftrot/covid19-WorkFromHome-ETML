@@ -46,10 +46,19 @@ if(!$groupName -or $groupName -isnot [string] -or !$description -or $description
 }
 else
 {
-    #create group
-    New-LocalGroup -Name $groupName -Description $description
-    Write-Host Group created -ForegroundColor Yellow
+    # Does the group exist?
+    $u = Get-LocalGroup | where-object {$_.Name -eq $groupName}
 
+    if($u)
+    {
+        Write-Host Group already exists -ForegroundColor Yellow
+    }
+    else
+    {
+            #create group
+        New-LocalGroup -Name $groupName -Description $description
+        Write-Host Group created -ForegroundColor Yellow
+    }
     
 }# endif
 

@@ -42,10 +42,27 @@ if(!$userName -or $userName -isnot [string] -or !$groupName -or $groupName -isno
 }
 else
 {
-    Add-LocalGroupMember -Group $groupName -Member $userName
-    Write-Host User $userName added to $groupName  -ForegroundColor Yellow
+    #Does the group and the user exist
+    $g = Get-LocalGroup | where-object {$_.Name -eq $groupName}
+    
+    $u = Get-LocalUser | where-object {$_.Name -eq $userName}
+    if(!$g)
+    {
+        Write-Host Group does not exists -ForegroundColor Yellow
+    }
+    if(!$u)
+    {
+        Write-Host User does not exists -ForegroundColor Yellow
+    }
+    if($u -eq $userName -and $g -eq $groupName)
+    {
+        #create group
+        Add-LocalGroupMember -group $groupName -$userName
+        Write-Host "User $userName added to $groupName" -ForegroundColor Yellow
+    }
     
 }# endif
+
 
 
 

@@ -23,20 +23,22 @@
     Contains a nb
  	
 .EXAMPLE
-   > .\122-8-Script-Check-Param.ps1 -name "pikachu" -nb 0
-    The name is equal to 0 : False
-    The number is equal to 0 : True
+   > .\122-8-Script-Check-Param.ps1 a 1
+    Param position validated to 0 : a
+    Following no obligatory params : 1
 #>
 
 # Ceiling of input
-param($name, $nb)
+param(
+    [Parameter(Mandatory=$True,Position=0,ValueFromPipeline=$True)] [string]$RequiredParam,
+    [Parameter(Mandatory=$False,Position=1,ValueFromPipeline=$True)]$NotRequiredParam)
 
 
-$nametest = $name -eq 0
-$nbtest = $nb -eq 0
+write-host "Param position validated to 0 : $RequiredParam"
 
-write-host "The name is equal to 0 : $nametest"
-write-host "The number is equal to 0 : $nbtest"
+write-host "Following no obligatory params : $NotRequiredParam"
+
+
 
 
 
