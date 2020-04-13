@@ -1,0 +1,19 @@
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleterTests.dll
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleterTests.pdb
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleter.exe
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleter.pdb
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\obj\Debug\TestUnitaireACompleterTests.csprojResolveAssemblyReference.cache
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\obj\Debug\TestUnitaireACompleterTests.dll
+c:\users\zfpjmy\documents\visual studio 2015\Projects\TestUnitaireACompleter\TestUnitaireACompleterTests\obj\Debug\TestUnitaireACompleterTests.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleterTests.dll
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleterTests.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleter.exe
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleter.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\TestUnitaireACompleter.exe.config
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\obj\Debug\TestUnitaireACompleterTests.csprojAssemblyReference.cache
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\obj\Debug\TestUnitaireACompleterTests.csproj.CopyComplete
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\obj\Debug\TestUnitaireACompleterTests.dll
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\2x-318TestUnitaireACompleter\TestUnitaireACompleter\TestUnitaireACompleterTests\obj\Debug\TestUnitaireACompleterTests.pdb

@@ -1,0 +1,20 @@
+REQUIRED VALUES FOR UI : 
+-DISKS (all, size, used space, free space, % usage)
+-RAM (total, % usage, frequency)
+-CPU (GRAPH, % usage, frequency, temperature)
+-GPU characteristics
+-Users (list in chronological order; more recent to older)
+-Computer Name
+-Services (list with status; filter available by status)
+-Boot Apps (list with enabled/disabled)
+-Planified Tasks
+-Others
+
+--------------------------
+Programm accesible by login in db
+--------------------------
+Db can store informations 
+--------------------------
+
+
+https://akril.net/creer-une-windows-form-en-powershell/

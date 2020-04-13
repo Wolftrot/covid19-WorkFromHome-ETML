@@ -36,18 +36,18 @@
             this.PointerCoordsLabel = new System.Windows.Forms.Label();
             this.penButton = new System.Windows.Forms.Button();
             this.fontainPenButton = new System.Windows.Forms.Button();
-            this.sizeSamplePanel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.BrushSizeLabel = new System.Windows.Forms.Label();
             this.drawingPanel = new System.Windows.Forms.Panel();
-            this.SelectedColorPanel = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.BrushSizeLabel_display = new System.Windows.Forms.Label();
             this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.sizeSamplePanel = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.SelectedColorPanel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.BrushSizeTrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
             this.sizeSamplePanel.SuspendLayout();
             this.SelectedColorPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // PointerCoordsLabel_display
@@ -91,29 +91,13 @@
             // 
             // fontainPenButton
             // 
+            this.fontainPenButton.Enabled = false;
             this.fontainPenButton.Location = new System.Drawing.Point(16, 61);
             this.fontainPenButton.Name = "fontainPenButton";
             this.fontainPenButton.Size = new System.Drawing.Size(161, 45);
             this.fontainPenButton.TabIndex = 1;
             this.fontainPenButton.Text = "Fountain Pen";
             this.fontainPenButton.UseVisualStyleBackColor = true;
-            // 
-            // sizeSamplePanel
-            // 
-            this.sizeSamplePanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.sizeSamplePanel.Controls.Add(this.panel1);
-            this.sizeSamplePanel.Location = new System.Drawing.Point(17, 112);
-            this.sizeSamplePanel.Name = "sizeSamplePanel";
-            this.sizeSamplePanel.Size = new System.Drawing.Size(70, 70);
-            this.sizeSamplePanel.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Location = new System.Drawing.Point(82, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(80, 80);
-            this.panel1.TabIndex = 1;
             // 
             // BrushSizeLabel
             // 
@@ -132,14 +116,37 @@
             this.drawingPanel.Size = new System.Drawing.Size(875, 600);
             this.drawingPanel.TabIndex = 6;
             // 
-            // SelectedColorPanel
+            // BrushSizeLabel_display
             // 
-            this.SelectedColorPanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.SelectedColorPanel.Controls.Add(this.panel3);
-            this.SelectedColorPanel.Location = new System.Drawing.Point(107, 112);
-            this.SelectedColorPanel.Name = "SelectedColorPanel";
-            this.SelectedColorPanel.Size = new System.Drawing.Size(70, 70);
-            this.SelectedColorPanel.TabIndex = 2;
+            this.BrushSizeLabel_display.AutoSize = true;
+            this.BrushSizeLabel_display.Location = new System.Drawing.Point(125, 455);
+            this.BrushSizeLabel_display.Name = "BrushSizeLabel_display";
+            this.BrushSizeLabel_display.Size = new System.Drawing.Size(34, 20);
+            this.BrushSizeLabel_display.TabIndex = 9;
+            this.BrushSizeLabel_display.Text = "1px";
+            this.BrushSizeLabel_display.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // form1BindingSource
+            // 
+            this.form1BindingSource.DataSource = typeof(Form318_1.Form1);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Location = new System.Drawing.Point(82, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(80, 80);
+            this.panel1.TabIndex = 1;
+            // 
+            // sizeSamplePanel
+            // 
+            this.sizeSamplePanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.sizeSamplePanel.Controls.Add(this.panel1);
+            this.sizeSamplePanel.Enabled = false;
+            this.sizeSamplePanel.Location = new System.Drawing.Point(17, 112);
+            this.sizeSamplePanel.Name = "sizeSamplePanel";
+            this.sizeSamplePanel.Size = new System.Drawing.Size(70, 70);
+            this.sizeSamplePanel.TabIndex = 0;
             // 
             // panel3
             // 
@@ -149,19 +156,15 @@
             this.panel3.Size = new System.Drawing.Size(80, 80);
             this.panel3.TabIndex = 1;
             // 
-            // BrushSizeLabel_display
+            // SelectedColorPanel
             // 
-            this.BrushSizeLabel_display.AutoSize = true;
-            this.BrushSizeLabel_display.Location = new System.Drawing.Point(145, 455);
-            this.BrushSizeLabel_display.Name = "BrushSizeLabel_display";
-            this.BrushSizeLabel_display.Size = new System.Drawing.Size(14, 20);
-            this.BrushSizeLabel_display.TabIndex = 9;
-            this.BrushSizeLabel_display.Text = "-";
-            this.BrushSizeLabel_display.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // form1BindingSource
-            // 
-            this.form1BindingSource.DataSource = typeof(Form318_1.Form1);
+            this.SelectedColorPanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.SelectedColorPanel.Controls.Add(this.panel3);
+            this.SelectedColorPanel.Enabled = false;
+            this.SelectedColorPanel.Location = new System.Drawing.Point(107, 112);
+            this.SelectedColorPanel.Name = "SelectedColorPanel";
+            this.SelectedColorPanel.Size = new System.Drawing.Size(70, 70);
+            this.SelectedColorPanel.TabIndex = 2;
             // 
             // Form1
             // 
@@ -183,9 +186,9 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.BrushSizeTrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).EndInit();
             this.sizeSamplePanel.ResumeLayout(false);
             this.SelectedColorPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,13 +201,13 @@
         private System.Windows.Forms.Label PointerCoordsLabel;
         private System.Windows.Forms.Button penButton;
         private System.Windows.Forms.Button fontainPenButton;
-        private System.Windows.Forms.Panel sizeSamplePanel;
         private System.Windows.Forms.Label BrushSizeLabel;
         private System.Windows.Forms.Panel drawingPanel;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel SelectedColorPanel;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label BrushSizeLabel_display;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel sizeSamplePanel;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel SelectedColorPanel;
     }
 }
 

@@ -1,0 +1,21 @@
+c:/users/zfpjmy/documents/visual studio 2015/Projects/EffetPapillon1/EffetPapillon1/bin/Debug/EffetPapillon1.exe.config
+c:/users/zfpjmy/documents/visual studio 2015/Projects/EffetPapillon1/EffetPapillon1/bin/Debug/EffetPapillon1.exe
+c:/users/zfpjmy/documents/visual studio 2015/Projects/EffetPapillon1/EffetPapillon1/bin/Debug/EffetPapillon1.pdb
+c:/users/zfpjmy/documents/visual studio 2015/Projects/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.exe
+c:/users/zfpjmy/documents/visual studio 2015/Projects/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.pdb
+//setmseb2k120002.etmlnet.local/SECTIONS$/INF/Maitres-Seul/Enseignement/ModulesICT_NewOrdo/318-ProgrammationOrienteeObjets/b-UnitesEnseignement/testsUnitaires/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.csprojResolveAssemblyReference.cache
+//setmseb2k120002.etmlnet.local/SECTIONS$/INF/Maitres-Seul/Enseignement/ModulesICT_NewOrdo/318-ProgrammationOrienteeObjets/b-UnitesEnseignement/testsUnitaires/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.csproj.CoreCompileInputs.cache
+//setmseb2k120002.etmlnet.local/SECTIONS$/INF/Maitres-Seul/Enseignement/ModulesICT_NewOrdo/318-ProgrammationOrienteeObjets/b-UnitesEnseignement/testsUnitaires/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.exe
+//setmseb2k120002.etmlnet.local/SECTIONS$/INF/Maitres-Seul/Enseignement/ModulesICT_NewOrdo/318-ProgrammationOrienteeObjets/b-UnitesEnseignement/testsUnitaires/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.pdb
+/Users/diurnambule/Downloads/EffetPapillon1/EffetPapillon1/bin/Debug/EffetPapillon1.exe.config
+/Users/diurnambule/Downloads/EffetPapillon1/EffetPapillon1/bin/Debug/EffetPapillon1.exe
+/Users/diurnambule/Downloads/EffetPapillon1/EffetPapillon1/bin/Debug/EffetPapillon1.pdb
+/Users/diurnambule/Downloads/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.csprojAssemblyReference.cache
+/Users/diurnambule/Downloads/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.exe
+/Users/diurnambule/Downloads/EffetPapillon1/EffetPapillon1/obj/Debug/EffetPapillon1.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\1x-318-effetPapillon\EffetPapillon1\EffetPapillon1\bin\Debug\EffetPapillon1.exe.config
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\1x-318-effetPapillon\EffetPapillon1\EffetPapillon1\bin\Debug\EffetPapillon1.exe
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\1x-318-effetPapillon\EffetPapillon1\EffetPapillon1\bin\Debug\EffetPapillon1.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\1x-318-effetPapillon\EffetPapillon1\EffetPapillon1\obj\Debug\EffetPapillon1.csprojAssemblyReference.cache
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\1x-318-effetPapillon\EffetPapillon1\EffetPapillon1\obj\Debug\EffetPapillon1.exe
+F:\00-GITS\covid19-WorkFromHome-ETML\318-POO3&GUI\1x-318-effetPapillon\EffetPapillon1\EffetPapillon1\obj\Debug\EffetPapillon1.pdb

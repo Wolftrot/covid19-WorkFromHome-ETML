@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{EA55C938-6B3A-4D3D-8F10-2D4791D30D8A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EffetPapillon1/Program.cs">
+    <Files>
+      <File FileName="EffetPapillon1/Program.cs" Line="21" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EffetPapillon1" expanded="True">
+            <Node name="EffetPapillon1" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EffetPapillon1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
