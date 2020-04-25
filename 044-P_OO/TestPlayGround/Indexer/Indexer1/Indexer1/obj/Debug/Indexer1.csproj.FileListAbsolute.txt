@@ -1,0 +1,6 @@
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer\Indexer1\Indexer1\bin\Debug\Indexer1.exe.config
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer\Indexer1\Indexer1\bin\Debug\Indexer1.exe
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer\Indexer1\Indexer1\bin\Debug\Indexer1.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer\Indexer1\Indexer1\obj\Debug\Indexer1.csprojAssemblyReference.cache
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer\Indexer1\Indexer1\obj\Debug\Indexer1.exe
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer\Indexer1\Indexer1\obj\Debug\Indexer1.pdb
