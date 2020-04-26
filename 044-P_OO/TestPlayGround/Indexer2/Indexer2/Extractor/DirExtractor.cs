@@ -11,11 +11,16 @@ namespace Indexer2
 {
     class DirExtractor : Extractor
     {
+
+        private int entriesCounter;
+        public override int EntriesCount{get => entriesCounter; set=> entriesCounter = value;  }
+
+
         public DriveInfo[] drivesInfo;
         public List<FileInfo> fileInfo = new List<FileInfo>();
 
         public List<FileExtract> filesExtracted = new List<FileExtract>();
-        public List<Source> sources = new List<Source>();
+        public List<Source> sourcesExtracted = new List<Source>();
 
 
         public override void Explore(string path)
@@ -26,9 +31,13 @@ namespace Indexer2
 
                 foreach (string fullpath in subFiles)
                 {
+
                     FileInfo fInfo = new FileInfo(fullpath);
+
                     ConsoleWriter.WriteFileInfo(fInfo);
+
                     fileInfo.Add(fInfo);
+                    EntriesCount++;
 
                     if (IsDirectory(fullpath))
                     {
@@ -36,6 +45,8 @@ namespace Indexer2
                     }
 
                 }
+
+                ConsoleWriter.WriteNotification("Entries registered : " + EntriesCount);
             }
             catch (UnauthorizedAccessException ex)
             {
@@ -54,18 +65,22 @@ namespace Indexer2
                 newFile.Date = System.IO.File.GetCreationTime(newFile.Path);
                 newFile.LastModifiedDate = System.IO.File.GetLastWriteTime(newFile.Path);
                 //OS does not keep track of last modification authors
-                //newFile.LastModifiedAuthor = System.IO.File.GetAccessControl(newFile.Path).l
+                //newFile.LastModifiedAuthor = ...
 
+                Source newSource = new Source();
+                newSource.Name = file.DirectoryName; //TODO : REDUNDANCY with newFile.Path
 
-                filesExtracted.Add(new FileExtract
-                    
-                    
-                    )
+                filesExtracted.Add(newFile);
+                sourcesExtracted.Add(newSource);
+
+                //Eliminate double paths in sources
+                sourcesExtracted = sourcesExtracted.Distinct().ToList();
             }
 
             //Clean 
             drivesInfo = null;
             fileInfo = new List<FileInfo>();
+            EntriesCount = 0;
         }
 
         public override void SendData()

@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Indexer2
+namespace Indexer2.Models
 {
     public class Word
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public int Count { get; set; }
 

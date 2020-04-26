@@ -8,6 +8,7 @@ namespace Indexer2
 {
     abstract class Extractor
     {
+        public abstract int EntriesCount { get; set; }
         public void Execute(string path)
         {
             Explore(path);

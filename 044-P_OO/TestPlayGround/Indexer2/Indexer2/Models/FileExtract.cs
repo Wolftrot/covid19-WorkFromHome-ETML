@@ -8,7 +8,6 @@ namespace Indexer2.Models
 {
     public class FileExtract
     {
-        public int Id { get; set; }
         public string Path { get; set; }
         public string Name { get; set; }
         public string Author { get; set; }
