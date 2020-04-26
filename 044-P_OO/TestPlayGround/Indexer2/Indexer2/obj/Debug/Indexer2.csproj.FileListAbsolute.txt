@@ -4,3 +4,9 @@ F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\b
 F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\obj\Debug\Indexer2.csprojAssemblyReference.cache
 F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\obj\Debug\Indexer2.exe
 F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\obj\Debug\Indexer2.pdb
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\bin\Debug\x86\sqlite3.dll
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\bin\Debug\x64\sqlite3.dll
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\bin\Debug\System.Data.SQLite.dll
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\bin\Debug\System.Data.SQLite.xml
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\bin\Debug\System.Data.SQLite.dll.config
+F:\00-GITS\covid19-WorkFromHome-ETML\044-P_OO\TestPlayGround\Indexer2\Indexer2\obj\Debug\Indexer2.csproj.CopyComplete
