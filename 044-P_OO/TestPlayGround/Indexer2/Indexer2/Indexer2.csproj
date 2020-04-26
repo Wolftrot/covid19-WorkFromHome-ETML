@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\FileExtract.cs" />
+    <Compile Include="Models\Img.cs" />
+    <Compile Include="Models\Source.cs" />
+    <Compile Include="Models\Word.cs" />
     <Compile Include="ConsoleWriter.cs" />
     <Compile Include="Extractor\DirExtractor.cs" />
     <Compile Include="Extractor\Extractor.cs" />

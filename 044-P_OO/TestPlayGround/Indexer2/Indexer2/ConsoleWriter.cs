@@ -45,8 +45,6 @@ namespace Indexer2
             Console.WriteLine("ReadOnly :" + f.IsReadOnly);
             
             Console.WriteLine("Exists :" + f.Exists);
-
-            string user = System.IO.File.GetAccessControl(path).
         }
     }
 }
