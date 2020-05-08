@@ -4,7 +4,6 @@
 //Description : Modèle pour une équation
 using System;
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
 
 namespace TestUnitaireACompleter
 {
@@ -24,45 +23,18 @@ namespace TestUnitaireACompleter
         public Equation(string equation)
         {
             //TODO extraire A,B,C et le setter
-            string equationString = equation;
+            string equationString = a + "x² + " + b + "x +" + c;
 
-            //replace signs, keep minus
-            string toReplace = @"x2|x²|x";
-            string replacement = @"";
-            equationString = Regex.Replace(equation, toReplace, replacement);
+            Stack<int> temp = new Stack<int>();
 
-            //replace signs, keep minus
-            toReplace = @"\+";
-            replacement = @",";
-            equationString = Regex.Replace(equationString, toReplace, replacement);
-
-            //replace signs, keep minus
-            toReplace = @"\-";
-            replacement = @",-";
-            equationString = Regex.Replace(equationString, toReplace, replacement);
-
-            //remove spaces
-            toReplace = @" ";
-            replacement = @"";
-            equationString = Regex.Replace(equationString, toReplace, replacement);
-
-            string[] temp = equationString.Split(',');
-
-
-
-            try
+            foreach (char c in equation) 
             {
-                a = Convert.ToInt32(temp[0]);
-                b = Convert.ToInt32(temp[1]);
-                c = Convert.ToInt32(temp[2]);
+                decimal i = 0;
+                if (Decimal.TryParse(c, out i)) { }
             }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
-                Console.WriteLine("INCORRECT CHAIN FORMAT");
-            }
+
+            throw new NotImplementedException();
         }
-
 
         /// <summary>
         /// Constructeur élémentaire

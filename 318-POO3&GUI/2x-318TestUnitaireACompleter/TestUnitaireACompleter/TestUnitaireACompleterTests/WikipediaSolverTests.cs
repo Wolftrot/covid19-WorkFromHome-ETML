@@ -15,36 +15,15 @@ namespace TestUnitaireACompleter.Tests
         [TestMethod()]
         public void WikipediaSolverTest_Constructor()
         {
-            
-
-            //Arrange
-            int a = 2;
-            int b = -16;
-            int c = 1500;
-            WikipediaSolver solver = new WikipediaSolver(new Equation(a, b, c));
-
-            //Act
-            bool result = solver != null;
-
-            //Assert
-            Assert.AreEqual(true, result);
+            //TODO
+            Assert.Fail();
         }
 
         [TestMethod()]
         public void computeDiscriminantTest()
         {
-            //Arrange
-            int a = 2;
-            int b = 2;
-            int c = 2;
-            WikipediaSolver solver = new WikipediaSolver(new Equation(a, b, c));
-
-            //B²-4ac = 2²-4*2*2 =  -12
-            //Act
-            int result = solver.computeDiscriminant();
-
-            //Assert
-            Assert.AreEqual(-12, result);
+            //TODO
+            Assert.Fail();
         }
 
         [TestMethod()]
@@ -76,7 +55,8 @@ namespace TestUnitaireACompleter.Tests
             bool result = solver.isSolvable();
 
             //Assert
-            Assert.AreEqual(true, result);
+            //TODO
+            Assert.Fail();
         }
 
         [TestMethod()]
@@ -98,11 +78,10 @@ namespace TestUnitaireACompleter.Tests
         [TestMethod()]
         public void solveTest_1Solution()
         {
-
             //Arrange
             int a = 2;
-            int b = 4;
-            int c = 2;
+            int b = -16;
+            int c = 1500;
             WikipediaSolver solver = new WikipediaSolver(new Equation(a, b, c));
 
             //Act
@@ -110,17 +89,16 @@ namespace TestUnitaireACompleter.Tests
 
             //Assert
             Assert.AreEqual(1, result.Length);
-            Assert.AreEqual(-1, result[0]);
+            Assert.AreEqual(84, result[0]);
         }
 
         [TestMethod()]
         public void solveTest_2Solution()
         {
-
             //Arrange
             int a = 2;
-            int b = 5;
-            int c = 2;
+            int b = -16;
+            int c = 1500;
             WikipediaSolver solver = new WikipediaSolver(new Equation(a, b, c));
 
             //Act
@@ -128,16 +106,14 @@ namespace TestUnitaireACompleter.Tests
 
             //Assert
             Assert.AreEqual(2, result.Length);
-            Assert.AreEqual(-0.5, result[0]);
-            Assert.AreEqual(-2, result[1]);
+            Assert.AreEqual(84, result[0]);
+            Assert.AreEqual(85, result[1]);
         }
 
         //TODO: Le code devrait renvoyer une exception
-        [TestMethod()]
-        [ExpectedException(typeof(ArithmeticException))]
+        [TestMethod(),ExpectedException(typeof(ArithmeticException))]
         public void solveTest_MaxInt()
         {
-            
             //Arrange
             int a = 5;
             int b = int.MaxValue;
@@ -148,25 +124,8 @@ namespace TestUnitaireACompleter.Tests
             //Act
             int result = solver.computeDiscriminant();
 
-            try
-            {
-                //Assert
-                Assert.AreEqual(Convert.ToInt32((b * b) - (4 * a * c)), result);
-            }
-            catch (ArithmeticException e)
-            {
-                //Assert
-                //Passes
-            }
-            finally
-            {
-                //Assert
-                Assert.Fail();
-            }
-            
-
-
-           
+            //Assert
+            Assert.AreEqual(Convert.ToInt64(b)*b-(4*a*c),result);
         }
     }
 }

@@ -252,24 +252,8 @@ namespace Indexer2.DB
 
             }
             ConsoleWriter.WriteNotification("Reading Ended -----------------------------------------------------------");
-        }
 
-        public static void ReadOwners()
-        {
-            SQLiteDataReader sqlite_datareader;
-            SQLiteCommand sqlite_cmd;
-
-            sqlite_cmd = sqlite_conn.CreateCommand();
-            sqlite_cmd.CommandText = "SELECT COUNT(fileAuthor), t_file.fileAuthor FROM t_file";
-
-            sqlite_datareader = sqlite_cmd.ExecuteReader();
-            ConsoleWriter.WriteNotification("ReadingData -----------------------------------------------------------");
-            while (sqlite_datareader.Read())
-            {
-                Console.WriteLine(sqlite_datareader.GetInt32(0) + "|" + sqlite_datareader.GetString(1));
-
-            }
-            ConsoleWriter.WriteNotification("Reading Ended -----------------------------------------------------------");
+            sqlite_conn.Close();
         }
     }
 }

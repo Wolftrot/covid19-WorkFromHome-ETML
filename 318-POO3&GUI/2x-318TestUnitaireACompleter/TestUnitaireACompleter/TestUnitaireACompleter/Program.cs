@@ -14,8 +14,6 @@ namespace TestUnitaireACompleter
         static void Main(string[] args)
         {
             //TODO: implémenter une interface d'utilisation en console
-            new WikipediaSolver(new Equation($"5x2 +{int.MaxValue}x + 9")).solve();
-            Console.ReadLine();
         }
     }
 }

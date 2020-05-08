@@ -37,8 +37,6 @@ namespace Indexer2
 
                     ConsoleWriter.WriteFileInfo(fInfo);
 
-                    PackData(fInfo);
-
                     fileInfo.Add(fInfo);
                     EntriesCount++;
 
@@ -57,50 +55,49 @@ namespace Indexer2
             }
         }
 
-        public override void PackData(FileInfo file)
+        public override void PackData()
         {
-            FileExtract newFile = new FileExtract();
-            newFile.Path = file.DirectoryName;
-            newFile.Name = file.FullName;
-            newFile.Author = System.IO.File.GetAccessControl(newFile.Path).GetOwner(typeof(System.Security.Principal.NTAccount)).ToString();
-            newFile.Date = System.IO.File.GetCreationTime(newFile.Path);
-            newFile.LastModifiedDate = System.IO.File.GetLastWriteTime(newFile.Path);
-            //OS does not keep track of last modification authors
-            //newFile.LastModifiedAuthor = ...
+            foreach (FileInfo file in fileInfo)
+            {
+                FileExtract newFile = new FileExtract();
+                newFile.Path = file.DirectoryName;
+                newFile.Name = file.FullName;
+                newFile.Author = System.IO.File.GetAccessControl(newFile.Path).GetOwner(typeof(System.Security.Principal.NTAccount)).ToString();
+                newFile.Date = System.IO.File.GetCreationTime(newFile.Path);
+                newFile.LastModifiedDate = System.IO.File.GetLastWriteTime(newFile.Path);
+                //OS does not keep track of last modification authors
+                //newFile.LastModifiedAuthor = ...
 
-            Source newSource = new Source();
-            newSource.Name = file.DirectoryName; //TODO : REDUNDANCY with newFile.Path
+                Source newSource = new Source();
+                newSource.Name = file.DirectoryName; //TODO : REDUNDANCY with newFile.Path
 
-            filesExtracted.Add(newFile);
-            sourcesExtracted.Add(newSource);
+                filesExtracted.Add(newFile);
+                sourcesExtracted.Add(newSource);
 
-            ConsoleWriter.WriteNotification($"PACKING DATA... {file.FullName}");
-            //Eliminate double paths in sources
-            sourcesExtracted = sourcesExtracted.Distinct().ToList();
-        }
+                //Eliminate double paths in sources
+                sourcesExtracted = sourcesExtracted.Distinct().ToList();
+            }
 
-        public override void SendData()
-        {
-            //throw new NotImplementedException();
             //Clean 
             drivesInfo = null;
             fileInfo = new List<FileInfo>();
             EntriesCount = 0;
         }
 
+        public override void SendData()
+        {
+            //throw new NotImplementedException();
+        }
+
         public bool IsDirectory(string path)
         {
             // get the file attributes for file or directory
-            try 
-            { 
-                FileAttributes attr = File.GetAttributes(path);
+            FileAttributes attr = File.GetAttributes(path);
 
-                if (attr.HasFlag(FileAttributes.Directory)) return true;
-            }
-            catch (Exception e) { ConsoleWriter.WriteWarning(e.Message); }
-
-            return false;
-            
+            if (attr.HasFlag(FileAttributes.Directory))
+                return true;
+            else
+                return false;
         }
 
         public void GetDrives()
