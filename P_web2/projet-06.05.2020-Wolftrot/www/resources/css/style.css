@@ -1,0 +1,26 @@
+/**  																	
+*ETML  																	
+*Auteur: Wolftrot 	  												
+*Date: 06.05.2020  															
+*Description: main domain css		  									
+*/  																	
+/*target element*/ 														
+html { }																
+body { }																
+/*target class*/ 														
+.class { }																
+/*target id*/ 															
+#id { }  																
+/*target pseudo-element*/ 												
+a:hover { }  															
+/*target nested*/ 														
+a nestedClass { }  														
+a  { }														
+/*target meta key*/ 													
+a[target="_blank"] { }  												
+[title~="flower"] { }													
+input[type="text"] { }  												
+/*define variables*/ 													
+:root { --main-bg-color: coral;}										
+/*implement variable*/ 													
+#div1 { background-color: var(--main-bg-color); }						
